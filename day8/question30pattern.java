@@ -1,0 +1,18 @@
+import java.util.*;
+class question30pattern{
+    public static void main(String[] args){
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter therow range");
+        int n= sc.nextInt();
+        //loop1
+        for(int i=1;i<=n;i++)
+        {
+            //loop2
+            for(int j=1; j<=i;j++)
+            {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+}
